@@ -1,6 +1,6 @@
 {
   "name": "vite-project",
-  "homepage": "https://IsmaelEnriquez.github.io/Brooklyn-Calendar/",
+  "homepage": "https://ismaelenriquez.github.io/Brooklyn-Calendar/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && cp dist/index.html dist/404.html",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
