@@ -5,5 +5,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig(({ mode }) => ({
   plugins: [tailwindcss(), react()],
-  base: mode === "production" ? "/Brooklyn-Calendar/" : "/", // 👈 dev stays at '/'
+  base:"/Brooklyn-Calendar/",
 }));

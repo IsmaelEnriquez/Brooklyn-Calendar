@@ -1,3 +1,5 @@
+// shared/events.ts (or .js)
+
 export const eventCategories = {
   "ACAIC Brooklyn": { label: "ACAIC Brooklyn", color: "bg-blue-600" },
   "ADAIC Brooklyn": { label: "ADAIC Brooklyn", color: "bg-rose-500" },
@@ -8,132 +10,133 @@ export const eventCategories = {
   "AJUVAIC Brooklyn": { label: "AJUVAIC Brooklyn", color: "bg-indigo-500" }
 };
 
-// Sample events - replace with your actual events
+const B = import.meta.env.BASE_URL;
+
 export const events = [
   {
     id: "1",
     date: "2025-10-27",
     name: "Servico De Bautismo",
-    flyerUrl: "/src/assets/Baptism1.png",
+    flyerUrl: `${B}Baptism1.png`,
     category: "Servico De Bautismo"
   },
   {
     id: "2",
-    date: "2025-11-08", 
+    date: "2025-11-08",
     name: "Firmeza En Cristo",
-    flyerUrl: "/src/assets/AJAIC BK.jpg",
+    flyerUrl: `${B}AJAIC-BK.jpg`, 
     category: "AJAIC Brooklyn"
   },
   {
     id: "3",
     date: "2025-11-22",
     name: "Jubileo",
-    flyerUrl: "/src/assets/sample-flyer.jpg",
+    flyerUrl: `${B}sample-flyer.jpg`,
     category: "ACAIC Brooklyn"
   },
   {
     id: "4",
     date: "2025-11-24",
     name: "",
-    flyerUrl: "/src/assets/sample-flyer.jpg",
+    flyerUrl: `${B}sample-flyer.jpg`,
     category: "Servico Misonero"
   },
   {
     id: "5",
     date: "2025-12-08",
     name: "Borough of Brooklyn - Christmas Social",
-    flyerUrl: "/src/assets/sample-flyer.jpg",
+    flyerUrl: `${B}sample-flyer.jpg`,
     category: "Boro De Brooklyn"
   },
   {
     id: "6",
     date: "2025-12-19",
     name: "",
-    flyerUrl: "/src/assets/sample-flyer.jpg",
+    flyerUrl: `${B}sample-flyer.jpg`,
     category: "ADAIC Brooklyn"
   },
   {
     id: "7",
-    date: "2026-01-10", 
+    date: "2026-01-10",
     name: "",
-    flyerUrl: "/src/assets/sample-flyer.jpg",
+    flyerUrl: `${B}sample-flyer.jpg`,
     category: "AJUVAIC Brooklyn"
   },
   {
     id: "8",
-    date: "2026-01-26", 
+    date: "2026-01-26",
     name: "",
-    flyerUrl: "/src/assets/sample-flyer.jpg",
+    flyerUrl: `${B}sample-flyer.jpg`,
     category: "Servico Misonero"
   },
   {
     id: "9",
-    date: "2026-03-16", 
+    date: "2026-03-16",
     name: "Dia de Presbítero",
-    flyerUrl: "/src/assets/sample-flyer.jpg",
+    flyerUrl: `${B}sample-flyer.jpg`,
     category: "Boro De Brooklyn"
   },
   {
     id: "10",
-    date: "2026-03-30", 
+    date: "2026-03-30",
     name: "",
-    flyerUrl: "/src/assets/sample-flyer.jpg",
+    flyerUrl: `${B}sample-flyer.jpg`,
     category: "Servico Misonero"
   },
   {
     id: "11",
     date: "2026-04-27",
     name: "",
-    flyerUrl: "/src/assets/sample-flyer.jpg",
+    flyerUrl: `${B}sample-flyer.jpg`,
     category: "Servico De Bautismo"
   },
   {
     id: "12",
-    date: "2026-05-04", 
+    date: "2026-05-04",
     name: "Conference De Boro",
-    flyerUrl: "/src/assets/sample-flyer.jpg",
+    flyerUrl: `${B}sample-flyer.jpg`,
     category: "Boro De Brooklyn"
   },
   {
     id: "13",
-    date: "2026-05-09", 
+    date: "2026-05-09",
     name: "Desayuno Presidencial",
-    flyerUrl: "/src/assets/sample-flyer.jpg",
+    flyerUrl: `${B}sample-flyer.jpg`,
     category: "ACAIC Brooklyn"
   },
   {
     id: "14",
-    date: "2026-05-30", 
+    date: "2026-05-30",
     name: "Culto Festival Misiones",
-    flyerUrl: "/src/assets/sample-flyer.jpg",
+    flyerUrl: `${B}sample-flyer.jpg`,
     category: "Servico Misonero"
   },
   {
     id: "15",
-    date: "2026-06-13", 
+    date: "2026-06-13",
     name: "Dia de Confraternidad",
-    flyerUrl: "/src/assets/sample-flyer.jpg",
+    flyerUrl: `${B}sample-flyer.jpg`,
     category: "AJAIC Brooklyn"
   },
   {
     id: "16",
     date: "2026-06-29",
     name: "",
-    flyerUrl: "/src/assets/sample-flyer.jpg",
+    flyerUrl: `${B}sample-flyer.jpg`,
     category: "Servico Misonero"
   },
   {
     id: "17",
-    date: "2026-08-01", 
+    date: "2026-08-01",
     name: "Culto De Aire Libre",
-    flyerUrl: "/src/assets/sample-flyer.jpg",
+    flyerUrl: `${B}sample-flyer.jpg`,
     category: "ACAIC Brooklyn"
   },
   {
     id: "18",
-    date: "2026-08-31", 
+    date: "2026-08-31",
     name: "",
-    flyerUrl: "/src/assets/sample-flyer.jpg",
+    flyerUrl: `${B}sample-flyer.jpg`,
     category: "Servico Misonero"
   }
 ];
