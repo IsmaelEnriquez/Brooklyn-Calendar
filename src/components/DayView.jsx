@@ -1,5 +1,5 @@
 import { eventCategories } from "../../shared/events";;
-import { parseEventDate } from "../ui/utils";
+import { parseEventDate } from "../../shared/utils";
 import { format, isSameDay } from "date-fns";
 
 export default function DayView({ currentDate, events, onEventClick }) {

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { addMonths, subMonths, addWeeks, subWeeks, addDays, subDays } from "date-fns";
-import CalendarHeader from "./CalendarHeader";
+import CalendarHeader from "../ui/CalendarHeader";
 import MonthView from "./MonthView";
 import WeekView from "./WeekView";
 import DayView from "./DayView";

@@ -1,6 +1,6 @@
 import { Calendar as CalendarIcon, Filter } from "lucide-react";
 import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem, SidebarHeader } from "../ui/sidebar";
-import { Checkbox } from "./ui/checkbox";
+import { Checkbox } from "../ui/checkbox";
 import { Label } from "../ui//label";
 import { eventCategories, events } from "../../shared/events";
 import { parseEventDate } from "../../shared/utils";
